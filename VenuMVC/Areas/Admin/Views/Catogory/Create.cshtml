@@ -1,0 +1,45 @@
+﻿@model Venu.Models.Models.Catogory
+<div class="card shadow border-0 mt-4">
+    
+</div>
+<form method="post" style="width: 600px; position:absolute">
+    @*When Ever Id is showing 0 while debuging keep id as hidden*@
+   @* <input asp-for="id" hidden/>*@
+    <div class=" card shadow border-0 mt-4" >
+        
+        <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white p-0">
+                        Create Catogory
+                    </h2>
+                </div>
+            </div>
+        
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3 row ">
+            <label asp-for="Name" class="p-0"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 row">
+            <label asp-for="DisplayOrder" class="p-0"></label>
+            <input asp-for="DisplayOrder" class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+    </div>
+        <div class="mb-3 row">
+            <div class="col-3 mb-3 ">
+                <button type="submit" class="btn btn-primary form-control">Create</button>
+            </div>
+            <div class="col-3  mb-3 ">
+               
+                    <a asp-controller="Catogory" asp-action="Index"  class="btn btn-primary mx-2">BacktoList</a>
+             
+            </div>
+        </div>
+       </div>
+       
+    
+</form>

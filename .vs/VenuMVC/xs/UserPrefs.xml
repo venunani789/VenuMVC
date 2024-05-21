@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}|https">
+  <MonoDevelop.Ide.ItemProperties.VenuMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VenuMVC/Areas/Admin/Controllers/CatogoryController.cs">
+    <Files>
+      <File FileName="VenuMVC/Areas/Admin/Views/Catogory/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Venu.Models/Models/Product.cs" Line="13" Column="34" />
+      <File FileName="Venu.Models/Models/Catogory.cs" Line="2" Column="1" />
+      <File FileName="Venu.DataAccess/Data/ApplicationDbContext.cs" Line="26" Column="10" />
+      <File FileName="Venu.DataAccess/Repository/IRepository/ICategoryRepository.cs" Line="1" Column="1" />
+      <File FileName="Venu.DataAccess/Repository/IRepository/IRepository.cs" Line="1" Column="1" />
+      <File FileName="Venu.DataAccess/Repository/IRepository/IUnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="Venu.DataAccess/Repository/CategoryRepository.cs" Line="1" Column="1" />
+      <File FileName="Venu.DataAccess/Repository/Repository.cs" Line="1" Column="1" />
+      <File FileName="Venu.DataAccess/Repository/UnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="VenuMVC/Program.cs" Line="1" Column="1" />
+      <File FileName="VenuMVC/Areas/Admin/Views/Product/Index.cshtml" Line="1" Column="1" />
+      <File FileName="VenuMVC/Areas/Admin/Controllers/ProductController.cs" Line="1" Column="1" />
+      <File FileName="VenuMVC/Areas/Admin/Controllers/CatogoryController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VenuMVC" expanded="True">
+            <Node name="Venu.DataAccess" expanded="True">
+              <Node name="Data" expanded="True" />
+            </Node>
+            <Node name="Venu.Models">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="VenuMVC">
+              <Node name="Areas">
+                <Node name="Admin">
+                  <Node name="Controllers">
+                    <Node name="CatogoryController.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Customer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Home" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

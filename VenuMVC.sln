@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenuMVC", "VenuMVC\VenuMVC.csproj", "{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92269737-35E1-4993-91C0-C1DD23542579}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPp", "RazorPp\RazorPp.csproj", "{0E898E87-8C87-49F4-88C5-ADD6CD50F6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venu.DataAccess", "Venu.DataAccess\Venu.DataAccess.csproj", "{6C26F04D-0749-47BC-A6DF-B6804C0CB0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venu.Models", "Venu.Models\Venu.Models.csproj", "{9AA42CB9-C8D8-4D05-9D33-9DFD1CFEC76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venu.Utilities", "Venu.Utilities\Venu.Utilities.csproj", "{A48EA83A-7656-49C8-ACCD-1D48975ABB00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E898E87-8C87-49F4-88C5-ADD6CD50F6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E898E87-8C87-49F4-88C5-ADD6CD50F6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E898E87-8C87-49F4-88C5-ADD6CD50F6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E898E87-8C87-49F4-88C5-ADD6CD50F6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C26F04D-0749-47BC-A6DF-B6804C0CB0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C26F04D-0749-47BC-A6DF-B6804C0CB0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C26F04D-0749-47BC-A6DF-B6804C0CB0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C26F04D-0749-47BC-A6DF-B6804C0CB0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA42CB9-C8D8-4D05-9D33-9DFD1CFEC76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA42CB9-C8D8-4D05-9D33-9DFD1CFEC76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA42CB9-C8D8-4D05-9D33-9DFD1CFEC76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA42CB9-C8D8-4D05-9D33-9DFD1CFEC76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48EA83A-7656-49C8-ACCD-1D48975ABB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48EA83A-7656-49C8-ACCD-1D48975ABB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48EA83A-7656-49C8-ACCD-1D48975ABB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48EA83A-7656-49C8-ACCD-1D48975ABB00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {835AD8CD-FDE4-457F-B2AF-BF2C0D6386ED}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

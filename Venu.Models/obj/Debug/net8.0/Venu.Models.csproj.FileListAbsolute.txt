@@ -1,0 +1,12 @@
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/bin/Debug/net8.0/Venu.Models.deps.json
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/bin/Debug/net8.0/Venu.Models.dll
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/bin/Debug/net8.0/Venu.Models.pdb
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.csproj.AssemblyReference.cache
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.AssemblyInfoInputs.cache
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.AssemblyInfo.cs
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.csproj.CoreCompileInputs.cache
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.dll
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/refint/Venu.Models.dll
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/Venu.Models.pdb
+/Users/venukoduru/Projects/VenuMVC/Venu.Models/obj/Debug/net8.0/ref/Venu.Models.dll
