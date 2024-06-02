@@ -9,7 +9,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
@@ -23,6 +23,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="5.0.2" />
+    <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\Customer\Controllers\" />
@@ -33,6 +36,7 @@
     <None Remove="Views\" />
     <None Remove="Views\Shared\" />
     <None Remove="Areas\Admin\Views\Product\" />
+    <None Remove="Areas\Identity\Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Customer\Controllers\" />
@@ -43,6 +47,10 @@
     <Folder Include="Views\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="Areas\Admin\Views\Product\" />
+    <Folder Include="Areas\Admin\Views\Product\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\images\product\" />
+    <Folder Include="Areas\Identity\Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
@@ -57,5 +65,9 @@
     <ProjectReference Include="..\Venu.DataAccess\Venu.DataAccess.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\images\product\" />
   </ItemGroup>
 </Project>

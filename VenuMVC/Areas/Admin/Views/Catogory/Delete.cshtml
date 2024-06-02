@@ -1,37 +1,43 @@
-﻿@model Venu.Models.Models.Catogory
+﻿@model Catogory
+    <div class=" card shadow border-0 mt-4">
 
-<form method="post" style="width: 600px; position:absolute">
-     <input asp-for="id" hidden/>
-    <div class=" border p-3 mt-4">
-        <div class="row pb-2">
-            <h2 class="text-primary p-0">
-                Delete Catogory
-            </h2>
-            <hr />
+        <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white p-0">
+                       Delete Catogory
+                    </h2>
+                </div>
+            </div>
         </div>
-        <div asp-validation-summary="All"></div>
-        <div class="mb-3 row ">
-            <label asp-for="Name" disabled class="p-0"></label>
-            <input asp-for="Name" disabled class="form-control" />
+        <div class="card-body p-4">
+            <form method="post" class="row">
+                <input asp-for="id" hidden />
+              
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3 row ">
+                        <label asp-for="Name" disabled class="form-control border-0 shadow"></label>
+                        <input asp-for="Name" disabled class="ms-2" />
 
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label asp-for="DisplayOrder" disabled class="form-control border-0 shadow"></label>
+                        <input asp-for="DisplayOrder" disabled class="ms-2" />
+
+                    </div>
+              
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-danger form-control">Delete</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Catogory" asp-action="Index" class=" btn btnoutline-outline-primary   form-control">Back to List</a>
+                    </div>
+                </div>
+
+
+
+            </form>
+            </div>
         </div>
-
-        <div class="mb-3 row">
-            <label asp-for="DisplayOrder" disabled class="p-0"></label>
-            <input asp-for="DisplayOrder" disabled class="form-control" />
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-3">
-            <button type="submit" class="btn btn-danger form-control">Delete</button>
-        </div>
-        <div class="col-3">
-            <a asp-controller="Catogory" asp-action="Index" class=" btn btnoutline-secondary   form-control">Back to List</a>
-        </div>
-    </div>
-
-
-
-</form>
-
