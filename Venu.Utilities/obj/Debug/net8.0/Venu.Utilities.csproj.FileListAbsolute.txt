@@ -6,6 +6,7 @@
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.AssemblyInfoInputs.cache
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.AssemblyInfo.cs
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.csproj.CoreCompileInputs.cache
+/Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.sourcelink.json
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.dll
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/refint/Venu.Utilities.dll
 /Users/venukoduru/Projects/VenuMVC/Venu.Utilities/obj/Debug/net8.0/Venu.Utilities.pdb

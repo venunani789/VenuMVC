@@ -10,12 +10,17 @@ namespace Venu.DataAccess.Repository
 
         private readonly ApplicationDbContext _db;
         public ICategoryRepository Catogory { get; private set; }
+        public IProductRepository Product { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
             {
                 _db = db;
             Catogory = new CategoryRepository(_db);
-            }
+            Product = new  ProductRepository(_db);
+        }
+       
+
+      
 
         public void Save()
         {

@@ -11,6 +11,7 @@
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.DataAccess.AssemblyInfoInputs.cache
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.DataAccess.AssemblyInfo.cs
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.DataAccess.csproj.CoreCompileInputs.cache
+/Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.DataAccess.sourcelink.json
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.Dat.584C493E.Up2Date
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/Venu.DataAccess.dll
 /Users/venukoduru/Projects/VenuMVC/Venu.DataAccess/obj/Debug/net8.0/refint/Venu.DataAccess.dll
