@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Venu.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993426783e4243d4b297d544ffd5e55109730aa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc7125e182fa4d104bfa80c5538e38c0546eed4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Venu.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Venu.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

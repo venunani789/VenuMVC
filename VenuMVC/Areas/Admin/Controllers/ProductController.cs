@@ -7,12 +7,16 @@ using Venu.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Venu.Models.Models;
 using Venu.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using Venu.Utilities;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace VenuMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         // GET: /<controller>/

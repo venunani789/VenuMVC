@@ -7,15 +7,18 @@ using Venu.DataAccess.Data;
 using Venu.DataAccess.Repository.IRepository;
 using Venu.DataAccess.Repository;
 using Venu.Models.Models;
+using Venu.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Update;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace VenuMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles=SD.Role_Admin)]
     public class CatogoryController : Controller
     {
         // GET: /<controller>/

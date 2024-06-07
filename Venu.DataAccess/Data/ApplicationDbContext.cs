@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 using Venu.Models.Models;
 
 namespace Venu.DataAccess.Data
@@ -15,7 +14,9 @@ namespace Venu.DataAccess.Data
 
         public DbSet<Catogory> Catogories { get; set; }
         public DbSet<Product> Products { get; set; }
-
+       
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
