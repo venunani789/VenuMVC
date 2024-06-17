@@ -20,13 +20,13 @@ namespace VenuMVC.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Catogory");
-            return View(productList);
+            IEnumerable<Product> ProductList = _unitOfWork.Product.GetAll(includeProperties: "Catogory");
+            return View(ProductList);
         }
-        public IActionResult Details(int productId)
+        public IActionResult Details(int ProductId)
         {
-            Product product = _unitOfWork.Product.Get(u => u.id == productId, includeProperties: "Catogory");
-            return View(product);
+            Product Product = _unitOfWork.Product.Get(u => u.id == ProductId, includeProperties: "Catogory");
+            return View(Product);
         }
         public IActionResult Privacy()
         {

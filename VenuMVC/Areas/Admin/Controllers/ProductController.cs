@@ -16,7 +16,7 @@ using Venu.Utilities;
 namespace VenuMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = SD.Role_Admin)]
+   // [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         // GET: /<controller>/
@@ -48,7 +48,7 @@ namespace VenuMVC.Areas.Admin.Controllers
                    Value = u.id.ToString()
                });*/
             //ViewBag.CatogoryList = CatogoryList;
-            ProductVM productVM = new()
+            ProductVM ProductVM = new()
             {
                 CatogoryList = _unitRepo.Catogory.GetAll().Select(u => new SelectListItem
                 {
@@ -62,29 +62,29 @@ namespace VenuMVC.Areas.Admin.Controllers
             };
             if (Id == null || Id == 0)
             {//create
-                return View(productVM);
+                return View(ProductVM);
             }
             else
             {
                 //update
-                productVM.Product = _unitRepo.Product.Get(u => u.id == Id);
-                return View(productVM);
+                ProductVM.Product = _unitRepo.Product.Get(u => u.id == Id);
+                return View(ProductVM);
             }
 
         }
         //multipartfuntionality in form
         [HttpPost]
-        public IActionResult Upsert(ProductVM productVM, IFormFile? file)
+        public IActionResult Upsert(ProductVM ProductVM, IFormFile? file)
         {
 
-            /* if (productVM.Product.Title == productVM.Product.Price.ToString())
+            /* if (ProductVM.Product.Title == ProductVM.Product.Price.ToString())
              {
                  ModelState.AddModelError("Name", "Name cannot be the same as Price");
              }
              else
              {
 
-                 if (int.TryParse(productVM.Product.Title, out _))
+                 if (int.TryParse(ProductVM.Product.Title, out _))
                  {
                      ModelState.AddModelError("Name", "Name cannot be a number");
                  }
@@ -96,34 +96,34 @@ namespace VenuMVC.Areas.Admin.Controllers
                 if (file != null)
                 {                         // file name and to preserve  extension of file 
                     string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                    //to navigate to product path
-                    string productPath = Path.Combine(wwwRootPath, @"images/product");
-                    if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
+                    //to navigate to Product path
+                    string ProductPath = Path.Combine(wwwRootPath, @"images/Product");
+                    if (!string.IsNullOrEmpty(ProductVM.Product.ImageUrl))
                     {//delete old image
-                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
+                        var oldImagePath = Path.Combine(wwwRootPath, ProductVM.Product.ImageUrl.TrimStart('\\'));
                         if (System.IO.File.Exists(oldImagePath))
                         {
                             System.IO.File.Delete(oldImagePath);
                         }
                     }
-                    //to uploade the file into productPath
-                    using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    //to uploade the file into ProductPath
+                    using (var fileStream = new FileStream(Path.Combine(ProductPath, fileName), FileMode.Create))
                     {
                         file.CopyTo(fileStream);
                     }
-                    //to update file  url in the productVM
-                    productVM.Product.ImageUrl = @"\images\product\" + fileName;
+                    //to update file  url in the ProductVM
+                    ProductVM.Product.ImageUrl = @"\images\Product\" + fileName;
                 }
-                if (productVM.Product.id == 0)
+                if (ProductVM.Product.id == 0)
                 {
-                    _unitRepo.Product.Add(productVM.Product);
+                    _unitRepo.Product.Add(ProductVM.Product);
 
                     TempData["sucess"] = "Product Data is Created Sucessfully";
 
                 }
                 else
                 {
-                    _unitRepo.Product.Update(productVM.Product);
+                    _unitRepo.Product.Update(ProductVM.Product);
                     TempData["sucess"] = "Product Data is Update Sucessfully";
                 }
                 _unitRepo.Save();
@@ -133,13 +133,13 @@ namespace VenuMVC.Areas.Admin.Controllers
             else
             {
 
-                productVM.CatogoryList = _unitRepo.Catogory.GetAll().Select(u => new SelectListItem
+                ProductVM.CatogoryList = _unitRepo.Catogory.GetAll().Select(u => new SelectListItem
                 {
                     Text = u.Name,
                     Value = u.id.ToString()
                 });
                 //CatogoryList = CatogoryList,
-                return View(productVM);
+                return View(ProductVM);
 
 
             }

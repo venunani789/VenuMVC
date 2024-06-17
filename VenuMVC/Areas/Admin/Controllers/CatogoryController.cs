@@ -18,7 +18,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace VenuMVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles=SD.Role_Admin)]
+    //[Authorize(Roles=SD.Role_Admin)]
     public class CatogoryController : Controller
     {
         // GET: /<controller>/

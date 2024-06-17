@@ -10,9 +10,9 @@ namespace Venu.Models.ViewModels
 {
 	public class ProductVM
 	{
-        public Product Product { get; set; }
+        public Product? Product { get; set; }
         [ValidateNever]
-        public IEnumerable<SelectListItem> CatogoryList { get; set; }
+        public IEnumerable<SelectListItem>? CatogoryList { get; set; }
     }
 }
 

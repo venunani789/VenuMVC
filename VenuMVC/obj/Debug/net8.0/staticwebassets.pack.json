@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets/images/product/fb1ff783-db75-459e-ab96-241ad176c08d.jpg"
     },
     {
+      "Id": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/wwwroot/js/company.js",
+      "PackagePath": "staticwebassets/js/company.js"
+    },
+    {
       "Id": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/wwwroot/js/product.js",
       "PackagePath": "staticwebassets/js/product.js"
     },

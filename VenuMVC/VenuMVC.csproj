@@ -10,7 +10,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -37,6 +37,7 @@
     <None Remove="Views\Shared\" />
     <None Remove="Areas\Admin\Views\Product\" />
     <None Remove="Areas\Identity\Data\" />
+    <None Remove="Areas\Admin\Views\Company\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Customer\Controllers\" />
@@ -51,6 +52,7 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\images\product\" />
     <Folder Include="Areas\Identity\Data\" />
+    <Folder Include="Areas\Admin\Views\Company\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
