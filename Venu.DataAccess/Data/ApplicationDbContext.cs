@@ -25,6 +25,10 @@ namespace Venu.DataAccess.Data
                 new Catogory { id = 1, Name = "Test", DisplayOrder = 1 },
                 new Catogory { id = 2, Name = "Test1", DisplayOrder = 2 }
             );
+            modelBuilder.Entity<Company>().HasData(
+               new Company { id = 1, Name = "Test", StreetAddress = "2229 west taylor street",State="Illinois",PostalCode="60612",City="Chicago",PhoneNumber="+1(773) 5841 333" },
+               new Company { id = 2, Name = "Test2", StreetAddress = "2226 west taylor street", State = "Illinois", PostalCode = "60612", City = "Chicago", PhoneNumber = "+1(772) 5841 333" }
+           );
 
             modelBuilder.Entity<Product>().HasData(
                 new Product

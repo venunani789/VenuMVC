@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Venu.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+768d77de386d890a606561ae4d07e3a74bb44410")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d84c25f6324b046fa0eea9b2c5a2e49783b13c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Venu.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Venu.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
