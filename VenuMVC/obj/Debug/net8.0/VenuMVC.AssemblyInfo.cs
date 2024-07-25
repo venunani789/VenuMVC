@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenuMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d84c25f6324b046fa0eea9b2c5a2e49783b13c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+effbe4ad1d8b505902d1368f9aa63c07a96b692a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenuMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenuMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

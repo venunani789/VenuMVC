@@ -26,6 +26,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="5.0.2" />
     <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
+    <PackageReference Include="Stripe.net" Version="45.4.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\Customer\Controllers\" />
@@ -38,6 +39,7 @@
     <None Remove="Areas\Admin\Views\Product\" />
     <None Remove="Areas\Identity\Data\" />
     <None Remove="Areas\Admin\Views\Company\" />
+    <None Remove="Areas\Customer\Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Customer\Controllers\" />
@@ -53,6 +55,7 @@
     <Folder Include="wwwroot\images\product\" />
     <Folder Include="Areas\Identity\Data\" />
     <Folder Include="Areas\Admin\Views\Company\" />
+    <Folder Include="Areas\Customer\Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
@@ -71,5 +74,6 @@
   <ItemGroup>
     <Content Remove="wwwroot\images\" />
     <Content Remove="wwwroot\images\product\" />
+    <Content Remove="wwwroot\images\product\3d120829-52ba-4b77-8995-b82119039c84.png" />
   </ItemGroup>
 </Project>

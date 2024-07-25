@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9F50z40mSryZxOUxA/0vLqBy/LBhDcomVphAB3LW6XMfnf08UBcrigvPjV3qOhaa6wW+9PMB/D1d2fQWGGcqRg==",
+  "dgSpecHash": "41Bhz6pyUkSi5umS/uxMjEgP3m1CTGIj6VcrSTUdcMBxSnRRTDCD1jYsqQ1Rfs3uwjy6nH6VVjlv/5HQzRNAKw==",
   "success": true,
   "projectFilePath": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/VenuMVC.csproj",
   "expectedPackageFiles": [
@@ -184,6 +184,7 @@
     "/Users/venukoduru/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/venukoduru/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/venukoduru/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/Users/venukoduru/.nuget/packages/stripe.net/45.4.0/stripe.net.45.4.0.nupkg.sha512",
     "/Users/venukoduru/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/Users/venukoduru/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/venukoduru/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",

@@ -7,12 +7,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using VenuMVC.Areas.Identity;
 using Venu.Utilities;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddAuthorization();
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddRazorPages();
 //this code configures Entity Framework Core to use SQL Server as the database provider and specifies the connection details via a connection string retrieved from the application's configuration.
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
@@ -23,7 +26,10 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LogoutPath = $"/Identity/Account/Logout";
     options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
 });
+
+
 //This got added after adding scaffolding identity
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
@@ -38,13 +44,15 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for Production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
+//these are middleware of application
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+    //ApiKey is secretKey in app settings
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
 app.UseRouting();
-app.UseAuthentication();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

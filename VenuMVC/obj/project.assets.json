@@ -3026,6 +3026,23 @@
           }
         }
       },
+      "Stripe.net/45.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9464,6 +9481,30 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "Stripe.net/45.4.0": {
+      "sha512": "KybqG8DAGw67jGyYcZqEKDT50P9mPh5lbA2ClFu768A79gKmnXc2fwqHW6Ik5x4nvxxF5d82EHBZnPHZTWFuFw==",
+      "type": "package",
+      "path": "stripe.net/45.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.45.4.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -13737,6 +13778,7 @@
       "Microsoft.SqlServer.Server >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts >= 5.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "Stripe.net >= 45.4.0",
       "Venu.DataAccess >= 1.0.0",
       "Venu.Models >= 1.0.0",
       "Venu.Utilities >= 1.0.0"
@@ -13841,6 +13883,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.2, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[45.4.0, )"
           }
         },
         "imports": [

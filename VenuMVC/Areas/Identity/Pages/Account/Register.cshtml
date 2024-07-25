@@ -38,10 +38,16 @@
                         <span asp-validation-for="Input.Name" class="text-danger"></span>
                     </div>
                     <div class="form-floating mb-3 col-md-6">
+                        <input asp-for="Input.StreetAddress" class="form-control" placeholder="password" />
+                        <label asp-for="Input.StreetAddress" class="ms-2 text-muted">StreetAddess</label>
+                        <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3 col-md-6">
                         <input asp-for="Input.City" class="form-control" placeholder="password" />
                         <label asp-for="Input.City" class="ms-2 text-muted">City</label>
                         <span asp-validation-for="Input.City" class="text-danger"></span>
                     </div>
+
                     <div class="form-floating mb-3 col-md-6">
                         <input asp-for="Input.Postalcode" class="form-control" placeholder="password" />
                         <label asp-for="Input.Postalcode" class="ms-2 text-muted">Postalcode</label>
@@ -64,7 +70,7 @@
                         </select>
                     </div>
                     <div class="form-floating mb-3 col-md-6">
-                        <select asp-for="Input.CompanyId"  style="display:none;" asp-items="@Model.Input.CompanyList" class="form-select">
+                        <select asp-for="Input.CompanyId" style="display:none;" asp-items="@Model.Input.CompanyList" class="form-select">
                             <option disabled selected>--Select Company</option>
                         </select>
                     </div>

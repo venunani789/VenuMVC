@@ -269,3 +269,4 @@
 /Users/venukoduru/Projects/VenuMVC/VenuMVC/obj/Debug/net8.0/VenuMVC.pdb
 /Users/venukoduru/Projects/VenuMVC/VenuMVC/obj/Debug/net8.0/VenuMVC.genruntimeconfig.cache
 /Users/venukoduru/Projects/VenuMVC/VenuMVC/obj/Debug/net8.0/ref/VenuMVC.dll
+/Users/venukoduru/Projects/VenuMVC/VenuMVC/bin/Debug/net8.0/Stripe.net.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bgMigxyJPeoNy2+91ReMGFXcajL4aQgMOCNaUdV/REk=",
+  "Hash": "cU9IWKywzsF55wqAUCC71n59JZHxpakjAm3dqcNmuU4=",
   "Source": "VenuMVC",
   "BasePath": "_content/VenuMVC",
   "Mode": "Default",
@@ -1402,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/product/5db1adf1-f9a3-4e7c-92b1-fd6951ddae30.JPG"
+    },
+    {
+      "Identity": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/wwwroot/images/product/803ea671-9614-4e37-8045-ba610a8b870a.png",
+      "SourceId": "VenuMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/wwwroot/",
+      "BasePath": "_content/VenuMVC",
+      "RelativePath": "images/product/803ea671-9614-4e37-8045-ba610a8b870a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/product/803ea671-9614-4e37-8045-ba610a8b870a.png"
     },
     {
       "Identity": "/Users/venukoduru/Projects/VenuMVC/VenuMVC/wwwroot/images/product/8fe86743-11dd-445e-bab0-bb517c94b662.JPG",
