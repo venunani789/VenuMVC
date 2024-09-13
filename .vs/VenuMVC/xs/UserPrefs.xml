@@ -1,41 +1,21 @@
 ﻿<Properties StartupConfiguration="{6A8A50E5-5D56-4FA1-9B5C-C0ECDD4D0296}|https">
-  <MonoDevelop.Ide.ItemProperties.VenuMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.VenuMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="VenuMVC/appsettings.json">
+    <Files>
+      <File FileName="VenuMVC/appsettings.json" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VenuMVC" expanded="True">
-            <Node name="Venu.DataAccess">
-              <Node name="Data" expanded="True" />
-              <Node name="Repository" expanded="True">
-                <Node name="IRepository" expanded="True" />
-                <Node name="OrderHeaderRepository.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="Venu.Models">
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="VenuMVC">
-              <Node name="Areas" expanded="True">
-                <Node name="Customer" expanded="True">
-                  <Node name="Views" expanded="True">
-                    <Node name="Cart" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="Identity" expanded="True">
-                  <Node name="Pages" expanded="True">
-                    <Node name="Account" expanded="True">
-                      <Node name="Register.cshtml" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
+            <Node name="VenuMVC" expanded="True">
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
